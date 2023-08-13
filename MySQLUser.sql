@@ -1,0 +1,14 @@
+CREATE DATABASE MyDatabase;
+
+USE MyDatabase;
+
+CREATE TABLE Users (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(255),
+    Email VARCHAR(255),
+    Password VARCHAR(255)
+);
+ALTER TABLE Users
+ADD LastUpdate DATETIME;
+ 
+ 
