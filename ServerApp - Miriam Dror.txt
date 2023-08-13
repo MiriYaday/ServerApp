@@ -1,0 +1,30 @@
+Explanation: // There are also explanations in the code
+
+Server - main class is Program:
+run the program and waiting to requests from browser
+run in browser:
+change the action as needed : add\update\delete\userById 
+
+http://localhost:8080/user?action=add&name=Moshe&email=miri47470@gmail.com&password=123456
+http://localhost:8080/user?action=update&id=9&name=MiriamDror&email=Miri47470@gmail.com&password=123
+http://localhost:8080/user?action=delete&id=9
+http://localhost:8080/user?action=userById&id=3
+
+to change the main class : Go to Project  -> Properties -> Aplication Tab -> Startup object.
+
+
+
+
+Batch service - main class is MainBatchService:
+
+The program send email to all the users and update the LastUpdate coulmn in DB the date that the email send 
+now for the test, sending an email is not really done, but the code is there
+the sending is done every Sanday in 4:00PM Now for the test is every minute...
+
+
+
+
+I got to work with batch files
+of course you have to open a file with the extension .bat and run it from the folder...
+
+Thank you!
